@@ -1,7 +1,7 @@
 verb='silent'
 seed='12345678'
-loops='30000000'
-tasks='18000'
+loops='500000000'
+tasks='600'
 
 echo "time ./OpenCLSumRnd $verb OpenCL $seed $loops $tasks"
 time ./OpenCLSumRnd $verb OpenCL $seed $loops $tasks
